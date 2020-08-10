@@ -1,0 +1,132 @@
+body{
+  font-size:16px;
+}
+#container{
+	width:960px;
+	margin:0pxauto;
+}
+@media screen and(max-width:959px) {
+	#container	{
+	width:100%;
+	}
+}
+.navbar-default{
+  background:#fff;
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+ul {
+  padding: 17px;
+}
+p{
+  font-family:Roboto;
+}
+
+#showcase img{
+  width:90%;
+  margin-left:23;
+}
+#showcase .showcase-right{
+  margin-top:30px;
+  margin-left:30px;
+}
+#testimonial1{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:40px;
+}
+#testimonial1 p{
+  font-size:32px;
+  font-family: 'Josefin Sans';
+  color:#000;
+}
+#testimonial1 p.customer{
+  font-size:20px;
+  color:#666;
+}
+#testimonial2{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:20px;
+}
+#testimonial2 p{
+  font-size:32px;
+  font-family: 'Josefin Sans';
+  color:#000;
+}
+#testimonial2 p.customer{
+  font-size:20px;
+  color:#666;
+}
+#info1 .info-right{
+  margin-top:60px;
+}
+#info1 .info-left{
+  margin-top:60px;
+}
+#info2{
+  margin:20px 0 60px 0;
+}
+#contact{
+  background:url(../img/image3.jpg);
+  padding:auto;
+  background-repeat: no-repeat;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+footer{
+  padding:30px;
+}
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+.main-title .thin {
+   font-weight: 200;
+}
+@media only screen and (max-width: 500px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
